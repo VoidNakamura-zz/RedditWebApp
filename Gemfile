@@ -1,8 +1,13 @@
 source 'https://rubygems.org'
-ruby '2.2.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
-#gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
+
 gem 'rails_12factor'
 gem 'activerecord-jdbcsqlite3-adapter'
 gem 'bootstrap-sass', '~> 3.3.6'
