@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-#group :development, :test do
- # gem 'sqlite3'
-#end
-#group :production do
-#  gem 'pg'
-#end
-gem 'puma'
+group :development, :test do
+ gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
+#gem 'puma'
 gem 'rails_12factor'
 gem 'simple_form', '~> 3.0.2'
 gem 'activerecord-jdbcsqlite3-adapter'
