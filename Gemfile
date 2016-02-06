@@ -11,7 +11,7 @@ end
 #gem 'puma'
 gem 'rails_12factor'
 gem 'simple_form', '~> 3.0.2'
-gem 'activerecord-jdbcsqlite3-adapter'
+#gem 'activerecord-jdbcsqlite3-adapter'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
