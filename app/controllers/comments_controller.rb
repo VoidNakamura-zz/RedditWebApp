@@ -8,6 +8,7 @@ class CommentsController < ApplicationController
   # POST /comments.json
   def create
    # @comment = Comment.new(comment_params)
+    @comment = Comment.all
     @link = Link.find(params[:link_id])
     @comment = @link.comments.new(comment_params)
     @comment.user = current_user
