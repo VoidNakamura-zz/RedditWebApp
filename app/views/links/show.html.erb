@@ -28,20 +28,11 @@
     </div>
 <% end %>
 
-
 <h3 class="comments_title">
-  <%= @link.comment %> Comments
+  <%= @link.user.email %> Comments
 </h3>
-
-<div id="comments">
-  <%= render :partial => @link.comments %>
-</div>
-
-<%= simple_form_for [@link, Comment.new] do |f| %>
-<div class="field">
-  <%= f.text_area :body, class:"form-control" %>
-</div>
 
 <br>
 <%= f.submit "Add dank comments",class:"btn btn-primary" %>
-<% end %>
+</br>
+
