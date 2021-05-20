@@ -24,7 +24,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring'
-gem 'devise','~>3.4.0'
+gem 'devise','~>4.7.1'
 gem 'acts_as_commentable'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
