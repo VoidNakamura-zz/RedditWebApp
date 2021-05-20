@@ -8,7 +8,9 @@ end
 group :production do
   gem 'pg'
 end
-gem 'puma'
+
+
+gem "puma", ">= 4.3.8"
 gem 'rails_12factor'
 gem 'simple_form', '~> 3.0.2'
 #gem 'activerecord-jdbcsqlite3-adapter'
